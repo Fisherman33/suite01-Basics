@@ -31,6 +31,12 @@
 function addition(number1, number2){
          return number1 + number2;
 }
+<<<<<<< HEAD
+=======
+
+console.log(addition(6, 9));
+console.log(addition(98766, 345678));
+>>>>>>> developpement
 
 console.log(addition(6, 9));
 console.log(addition(98766, 345678));
