@@ -30,4 +30,25 @@
 // isAllEven([4, 4, 6, 8, 10, 12]);
 
 //  écrire votre code sous ce commentaire
+function isEven(n) {
+    if (n % 2 === 0) {
+        return 1;
+    }
+    else {
+        return 0;
+    }
+}
 
+function isAllEven(table) {
+
+    for (var i = 0; i < table.length; i++) {
+        if (isEven(table[i]) === 1) { }
+        else {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+console.log(isAllEven([4, 5, 6]));
+console.log(isAllEven([4, 4, 6, 8, 10, 12]));
