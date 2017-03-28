@@ -19,7 +19,7 @@
 */
 
 function returnParameter(nb) {
-z    return nb;
+    return nb;
 }
 
 //  écrire votre code sous ce commentaire
